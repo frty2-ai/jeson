@@ -1,0 +1,30 @@
+name: Bug report
+description: Something returns a wrong answer, crashes, or does not install
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what you expected
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Minimal reproduction
+      description: The schema (or a minimal one that reproduces it) and the code. Attach a synthetic page if you can; never attach documents with personal data.
+      render: python
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: Versions
+      description: jeson, torch, transformers, Python, OS, GPU
+    validations:
+      required: true
+  - type: textarea
+    id: trace
+    attributes:
+      label: Full traceback or output
+      render: text

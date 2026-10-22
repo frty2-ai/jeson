@@ -1,0 +1,15 @@
+{
+ "provider": "openrouter",
+ "model": "meta-llama/llama-4-scout",
+ "level": "L1",
+ "mode": "strict",
+ "n": 50,
+ "agreement": 0.9275,
+ "valid_json": 50,
+ "errors": 0,
+ "first_error": null,
+ "latency_s_p50": 8.136,
+ "latency_n": 20,
+ "cost_usd": 0.02081,
+ "usd_per_1k_serial": 0.4162
+}

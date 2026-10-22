@@ -1,0 +1,15 @@
+{
+ "provider": "openrouter",
+ "model": "meta-llama/llama-4-scout",
+ "level": "L3",
+ "mode": "strict",
+ "n": 50,
+ "agreement": 0.7372,
+ "valid_json": 48,
+ "errors": 2,
+ "first_error": "520: {'error': {'message': 'Provider returned error', 'code': 520, 'metadata': {'raw': 'error code: 520\\n', 'provider_name': 'DeepInfra', 'is_byok': False, 'previous_errors': [{'code': 429, 'message':",
+ "latency_s_p50": 70.83,
+ "latency_n": 20,
+ "cost_usd": 0.07365,
+ "usd_per_1k_serial": 1.473
+}

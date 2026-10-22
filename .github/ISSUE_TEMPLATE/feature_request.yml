@@ -1,0 +1,21 @@
+name: Feature or primitive request
+description: A schema shape jeson should answer, a runtime, or an API
+labels: [enhancement]
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: The problem
+      description: What you are trying to extract, from what kind of image, and why the current types do not cover it.
+    validations:
+      required: true
+  - type: textarea
+    id: shape
+    attributes:
+      label: Proposed schema shape or API
+      render: json
+  - type: textarea
+    id: measure
+    attributes:
+      label: How we would know it works
+      description: A benchmark field, a dataset, or a test that would show it.

@@ -1,0 +1,29 @@
+# data, weights and run outputs never go in the repository
+data/
+*.jsonl
+*.jpg
+*.jpeg
+*.png
+*.pt
+*.safetensors
+*.npz
+*.onnx
+benchmarks/results/hosted/answers/
+# environments and secrets
+.venv/
+venv/
+.env
+.env.*
+# python
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+
+# the example page is synthetic (invented names and numbers)
+!examples/*.jpg
+# the benchmark charts are drawn from benchmarks/results, which is committed
+!benchmarks/charts/*.png

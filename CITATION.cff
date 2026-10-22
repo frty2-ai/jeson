@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use jeson, please cite it as below."
+title: "jeson: typed JSON from images in one forward pass"
+authors:
+  - name: "The jeson authors"
+license: Apache-2.0
+version: 0.1.0
+date-released: 2026-10-22
+repository-code: "https://github.com/frty2-ai/jeson"
+keywords: [json-schema, structured-output, document-ai, vision-language-model]

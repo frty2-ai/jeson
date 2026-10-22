@@ -1,0 +1,90 @@
+{
+ "type": "object",
+ "properties": {
+  "invoice_kind": {
+   "type": "string",
+   "enum": [
+    "tax_invoice",
+    "proforma",
+    "credit_note",
+    "receipt"
+   ],
+   "description": "What the document is, from its heading."
+  },
+  "currency": {
+   "type": "string",
+   "enum": [
+    "INR",
+    "USD",
+    "EUR",
+    "GBP",
+    "AED"
+   ],
+   "description": "The currency the amounts are in."
+  },
+  "gstin_shown": {
+   "type": "boolean",
+   "description": "A GSTIN (Indian GST registration number) is printed."
+  },
+  "paid_stamp": {
+   "type": "boolean",
+   "description": "A red PAID stamp is on the page."
+  },
+  "signature_present": {
+   "type": "boolean",
+   "description": "The authorised signatory line carries a handwritten signature."
+  },
+  "qr_code_present": {
+   "type": "boolean",
+   "description": "A QR code is printed on the page."
+  },
+  "bank_details_present": {
+   "type": "boolean",
+   "description": "Bank account details for payment are printed."
+  },
+  "discount_applied": {
+   "type": "boolean",
+   "description": "A discount line is shown above the total."
+  },
+  "line_items_count": {
+   "type": "integer",
+   "enum": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "x-ordered": true,
+   "description": "How many line items the table lists (1 to 10)."
+  },
+  "tax_type": {
+   "type": "string",
+   "enum": [
+    "cgst_sgst",
+    "igst",
+    "vat",
+    "none"
+   ],
+   "description": "Which tax is applied: CGST + SGST, IGST, VAT, or none."
+  }
+ },
+ "required": [
+  "invoice_kind",
+  "currency",
+  "gstin_shown",
+  "paid_stamp",
+  "signature_present",
+  "qr_code_present",
+  "bank_details_present",
+  "discount_applied",
+  "line_items_count",
+  "tax_type"
+ ],
+ "additionalProperties": false
+}

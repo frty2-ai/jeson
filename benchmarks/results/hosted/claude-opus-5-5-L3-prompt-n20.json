@@ -1,0 +1,15 @@
+{
+ "provider": "anthropic",
+ "model": "claude-opus-5-5",
+ "level": "L3",
+ "mode": "prompt_only",
+ "n": 20,
+ "agreement": 0.9944,
+ "valid_json": 20,
+ "errors": 0,
+ "first_error": null,
+ "latency_s_p50": 8.348,
+ "latency_n": 5,
+ "cost_usd": 0.67332,
+ "usd_per_1k_serial": 53.7618
+}

@@ -1,0 +1,15 @@
+{
+ "provider": "openrouter",
+ "model": "google/gemini-3.8-flash",
+ "level": "L3",
+ "mode": "strict",
+ "n": 30,
+ "agreement": 0.9879,
+ "valid_json": 30,
+ "errors": 0,
+ "first_error": null,
+ "latency_s_p50": 6.901,
+ "latency_n": 10,
+ "cost_usd": 0.22801,
+ "usd_per_1k_serial": 7.6003
+}

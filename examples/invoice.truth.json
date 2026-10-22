@@ -1,0 +1,12 @@
+{
+ "invoice_kind": "receipt",
+ "currency": "EUR",
+ "gstin_shown": true,
+ "paid_stamp": false,
+ "signature_present": true,
+ "qr_code_present": false,
+ "bank_details_present": false,
+ "discount_applied": false,
+ "line_items_count": 2,
+ "tax_type": "cgst_sgst"
+}

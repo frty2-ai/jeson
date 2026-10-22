@@ -1,0 +1,15 @@
+{
+ "provider": "openrouter",
+ "model": "meta-llama/llama-4-scout",
+ "level": "L2",
+ "mode": "strict",
+ "n": 50,
+ "agreement": 0.9765,
+ "valid_json": 49,
+ "errors": 1,
+ "first_error": "200: {'error': {'message': 'Provider timed out after 8179ms', 'code': 504, 'metadata': {'error_type': 'timeout'}}}",
+ "latency_s_p50": 24.872,
+ "latency_n": 20,
+ "cost_usd": 0.03701,
+ "usd_per_1k_serial": 0.7402
+}

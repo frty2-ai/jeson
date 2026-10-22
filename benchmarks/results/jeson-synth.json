@@ -1,0 +1,242 @@
+{
+ "model": "Qwen/Qwen3-VL-2B-Instruct",
+ "vision": "google/siglip2-so400m-patch14-384",
+ "text": "jhu-clsp/mmBERT-base",
+ "device": "NVIDIA GeForce RTX 4070 SUPER",
+ "levels": {
+  "L1": {
+   "train_pages": 300,
+   "test_pages": 100,
+   "fields_per_page": 10,
+   "lock_fit_s_one_thread": 0.46,
+   "lock_heads": 27,
+   "fast_train_gpu_s": 5.1,
+   "latency_ms_p50": {
+    "zero_shot_and_locked": 242.9,
+    "fast_end_to_end": 21.8
+   },
+   "n50": {
+    "prior": {
+     "agreement": 0.4901,
+     "n_fields": 455
+    },
+    "zero_shot": {
+     "agreement": 0.8198,
+     "n_fields": 455,
+     "by_primitive": {
+      "choice": 0.8345,
+      "noul": 0.8346,
+      "score": 0.7
+     }
+    },
+    "locked": {
+     "agreement": 0.9385,
+     "n_fields": 455,
+     "by_primitive": {
+      "choice": 0.9856,
+      "noul": 0.9586,
+      "score": 0.7
+     }
+    },
+    "fast": {
+     "agreement": 0.7538,
+     "n_fields": 455,
+     "by_primitive": {
+      "choice": 0.518,
+      "noul": 0.9398,
+      "score": 0.42
+     }
+    }
+   },
+   "n100": {
+    "prior": {
+     "agreement": 0.5022,
+     "n_fields": 916
+    },
+    "zero_shot": {
+     "agreement": 0.7991,
+     "n_fields": 916,
+     "by_primitive": {
+      "choice": 0.814,
+      "noul": 0.8023,
+      "score": 0.74
+     }
+    },
+    "locked": {
+     "agreement": 0.952,
+     "n_fields": 916,
+     "by_primitive": {
+      "choice": 0.9789,
+      "noul": 0.9736,
+      "score": 0.76
+     }
+    },
+    "fast": {
+     "agreement": 0.7533,
+     "n_fields": 916,
+     "by_primitive": {
+      "choice": 0.5088,
+      "noul": 0.9379,
+      "score": 0.47
+     }
+    }
+   }
+  },
+  "L2": {
+   "train_pages": 300,
+   "test_pages": 100,
+   "fields_per_page": 40,
+   "lock_fit_s_one_thread": 1.26,
+   "lock_heads": 40,
+   "fast_train_gpu_s": 10.0,
+   "latency_ms_p50": {
+    "zero_shot_and_locked": 405.5,
+    "fast_end_to_end": 22.6
+   },
+   "n50": {
+    "prior": {
+     "agreement": 0.5875,
+     "n_fields": 2000
+    },
+    "zero_shot": {
+     "agreement": 0.612,
+     "n_fields": 2000,
+     "by_primitive": {
+      "choice": 0.44,
+      "noul": 0.6892,
+      "score": 0.84
+     }
+    },
+    "locked": {
+     "agreement": 0.8375,
+     "n_fields": 2000,
+     "by_primitive": {
+      "choice": 0.6754,
+      "noul": 0.9123,
+      "score": 1.0
+     }
+    },
+    "fast": {
+     "agreement": 0.8315,
+     "n_fields": 2000,
+     "by_primitive": {
+      "choice": 0.6969,
+      "noul": 0.8969,
+      "score": 0.88
+     }
+    }
+   },
+   "n100": {
+    "prior": {
+     "agreement": 0.5972,
+     "n_fields": 4000
+    },
+    "zero_shot": {
+     "agreement": 0.614,
+     "n_fields": 4000,
+     "by_primitive": {
+      "choice": 0.4308,
+      "noul": 0.695,
+      "score": 0.89
+     }
+    },
+    "locked": {
+     "agreement": 0.8427,
+     "n_fields": 4000,
+     "by_primitive": {
+      "choice": 0.6838,
+      "noul": 0.9162,
+      "score": 1.0
+     }
+    },
+    "fast": {
+     "agreement": 0.838,
+     "n_fields": 4000,
+     "by_primitive": {
+      "choice": 0.7031,
+      "noul": 0.9038,
+      "score": 0.88
+     }
+    }
+   }
+  },
+  "L3": {
+   "train_pages": 300,
+   "test_pages": 100,
+   "fields_per_page": 107,
+   "lock_fit_s_one_thread": 3.54,
+   "lock_heads": 107,
+   "fast_train_gpu_s": 21.3,
+   "latency_ms_p50": {
+    "zero_shot_and_locked": 950.3,
+    "fast_end_to_end": 23.7
+   },
+   "n50": {
+    "prior": {
+     "agreement": 0.7286,
+     "n_fields": 5350
+    },
+    "zero_shot": {
+     "agreement": 0.6391,
+     "n_fields": 5350,
+     "by_primitive": {
+      "choice": 0.2123,
+      "noul": 0.7843,
+      "score": 0.12
+     }
+    },
+    "locked": {
+     "agreement": 0.8084,
+     "n_fields": 5350,
+     "by_primitive": {
+      "choice": 0.5354,
+      "noul": 0.9042,
+      "score": 0.24
+     }
+    },
+    "fast": {
+     "agreement": 0.794,
+     "n_fields": 5350,
+     "by_primitive": {
+      "choice": 0.5069,
+      "noul": 0.8945,
+      "score": 0.22
+     }
+    }
+   },
+   "n100": {
+    "prior": {
+     "agreement": 0.7277,
+     "n_fields": 10700
+    },
+    "zero_shot": {
+     "agreement": 0.6407,
+     "n_fields": 10700,
+     "by_primitive": {
+      "choice": 0.2108,
+      "noul": 0.7869,
+      "score": 0.12
+     }
+    },
+    "locked": {
+     "agreement": 0.8079,
+     "n_fields": 10700,
+     "by_primitive": {
+      "choice": 0.5396,
+      "noul": 0.9022,
+      "score": 0.24
+     }
+    },
+    "fast": {
+     "agreement": 0.7898,
+     "n_fields": 10700,
+     "by_primitive": {
+      "choice": 0.4977,
+      "noul": 0.8914,
+      "score": 0.26
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,15 @@
+{
+ "provider": "openrouter",
+ "model": "qwen/qwen3.7-flash",
+ "level": "L1",
+ "mode": "strict",
+ "n": 50,
+ "agreement": 0.956,
+ "valid_json": 50,
+ "errors": 0,
+ "first_error": null,
+ "latency_s_p50": 4.655,
+ "latency_n": 20,
+ "cost_usd": 0.00473,
+ "usd_per_1k_serial": 0.0946
+}

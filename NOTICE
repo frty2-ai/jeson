@@ -1,0 +1,12 @@
+jeson
+Copyright 2026 The jeson authors
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+jeson does not bundle model weights. At run time it downloads, from the Hugging Face Hub, models released by their
+authors under their own licences, including:
+  Qwen3-VL (Alibaba Qwen team)                Apache-2.0
+  SigLIP2 (Google)                            Apache-2.0
+  mmBERT (Johns Hopkins University CLSP)      MIT
+  PP-OCR models via RapidOCR (optional)       Apache-2.0
+Check each model's licence before commercial use.

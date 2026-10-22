@@ -1,0 +1,15 @@
+{
+ "provider": "anthropic",
+ "model": "claude-sonnet-5-5",
+ "level": "L3",
+ "mode": "prompt_only",
+ "n": 40,
+ "agreement": 0.9437,
+ "valid_json": 38,
+ "errors": 0,
+ "first_error": null,
+ "latency_s_p50": 5.392,
+ "latency_n": 5,
+ "cost_usd": 0.63803,
+ "usd_per_1k_serial": 28.4529
+}

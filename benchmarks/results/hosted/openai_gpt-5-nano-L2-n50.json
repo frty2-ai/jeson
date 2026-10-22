@@ -1,0 +1,15 @@
+{
+ "provider": "openrouter",
+ "model": "openai/gpt-5-nano",
+ "level": "L2",
+ "mode": "strict",
+ "n": 50,
+ "agreement": 0.9935,
+ "valid_json": 50,
+ "errors": 0,
+ "first_error": null,
+ "latency_s_p50": 7.746,
+ "latency_n": 20,
+ "cost_usd": 0.02545,
+ "usd_per_1k_serial": 0.5091
+}

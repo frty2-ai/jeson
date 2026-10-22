@@ -1,0 +1,15 @@
+{
+ "provider": "anthropic",
+ "model": "claude-haiku-5-5",
+ "level": "L3",
+ "mode": "prompt_only",
+ "n": 50,
+ "agreement": 0.6867,
+ "valid_json": 50,
+ "errors": 0,
+ "first_error": null,
+ "latency_s_p50": 3.78,
+ "latency_n": 20,
+ "cost_usd": 0.04836,
+ "usd_per_1k_serial": 1.3828
+}
